@@ -1,0 +1,711 @@
+{
+  "instituicao": [
+    {
+      "id": 0,
+      "ra_instituicao": "I00000",
+      "nome_instituicao": "Instituição",
+      "email_instituicao": "email0@email.com",
+      "telefone1_instituicao": "telefone1",
+      "telefone2_instituicao": "telefone2",
+      "endereco_instituicao": "endereco0"
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": 1,
+      "nome_disciplina": "Nome_Disciplina2",
+      "turno_disciplina": "Manhã",
+      "cursos_disciplina": "Cursos2"
+    },
+    {
+      "id": 3,
+      "nome_disciplina": "Nome_Disciplina4",
+      "turno_disciplina": "Turno4",
+      "cursos_disciplina": "Cursos4"
+    },
+    {
+      "id": 5,
+      "nome_disciplina": "Nome_Disciplina6",
+      "turno_disciplina": "Turnos6",
+      "cursos_disciplina": "Cursos6"
+    },
+    {
+      "id": 6,
+      "nome_disciplina": "Nome_Disciplina7",
+      "turno_disciplina": "Turnos7",
+      "cursos_disciplina": "Cursos7"
+    },
+    {
+      "id": 7,
+      "nome_disciplina": "Nome_Disciplina8",
+      "turno_disciplina": "Turnos8",
+      "cursos_disciplina": "Cursos8"
+    },
+    {
+      "id": 8,
+      "nome_disciplina": "Nome_Disciplina9",
+      "turno_disciplina": "Turnos9",
+      "cursos_disciplina": "Cursos9"
+    },
+    {
+      "id": 9,
+      "nome_disciplina": "Nome_Disciplina10",
+      "turno_disciplina": "Turnos10",
+      "cursos_disciplina": "Cursos10"
+    },
+    {
+      "id": 10,
+      "nome_disciplina": "Nome_Disciplina11",
+      "turno_disciplina": "Turnos11",
+      "cursos_disciplina": "Cursos11"
+    },
+    {
+      "id": 11,
+      "nome_disciplina": "Nome_Disciplina12",
+      "turno_disciplina": "Turnos12",
+      "cursos_disciplina": "Cursos12"
+    },
+    {
+      "id": 12,
+      "nome_disciplina": "Nome Disciplina Teste",
+      "turno_disciplina": "Manhã",
+      "cursos_disciplina": "Teste 2 "
+    },
+    {
+      "id": 13,
+      "nome_disciplina": "Nome_Disciplina1",
+      "turno_disciplina": "Noite",
+      "cursos_disciplina": "Teste 2 "
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "ra_professor": "P11111",
+      "nome_professor": "Professor1 ",
+      "email_professor": "email1@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco1",
+      "disciplinasLecionadas_professor": "disciplinas1"
+    },
+    {
+      "id": 2,
+      "ra_professor": "P22222",
+      "nome_professor": "Professor2",
+      "email_professor": "email2@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco2",
+      "disciplinasLecionadas_professor": "disciplinas2"
+    },
+    {
+      "id": 3,
+      "ra_professor": "P33333",
+      "nome_professor": "Professor3",
+      "email_professor": "email3@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco3",
+      "disciplinasLecionadas_professor": "disciplinas3"
+    },
+    {
+      "id": 4,
+      "ra_professor": "P44444",
+      "nome_professor": "Professor4",
+      "email_professor": "email4@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco4",
+      "disciplinasLecionadas_professor": "disciplinas4"
+    },
+    {
+      "id": 5,
+      "ra_professor": "P55555",
+      "nome_professor": "Professor5",
+      "email_professor": "email5@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco5",
+      "disciplinasLecionadas_professor": "disciplinas5"
+    },
+    {
+      "id": 6,
+      "ra_professor": "P66666",
+      "nome_professor": "Professor6",
+      "email_professor": "email6@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco6",
+      "disciplinasLecionadas_professor": "disciplinas6"
+    },
+    {
+      "id": 7,
+      "ra_professor": "P77777",
+      "nome_professor": "Professor7",
+      "email_professor": "email7@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco7",
+      "disciplinasLecionadas_professor": "disciplinas7"
+    },
+    {
+      "id": 8,
+      "ra_professor": "P88888",
+      "nome_professor": "Professor8",
+      "email_professor": "email8@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco8",
+      "disciplinasLecionadas_professor": "disciplinas8"
+    },
+    {
+      "id": 9,
+      "ra_professor": "P99999",
+      "nome_professor": "Professor9",
+      "email_professor": "email9@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco9",
+      "disciplinasLecionadas_professor": "disciplinas9"
+    },
+    {
+      "id": 10,
+      "ra_professor": "P1010101010",
+      "nome_professor": "Professor10",
+      "email_professor": "email10@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco10",
+      "disciplinasLecionadas_professor": "disciplinas10"
+    },
+    {
+      "id": 11,
+      "ra_professor": "P1111111111",
+      "nome_professor": "Professor11",
+      "email_professor": "email11@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco11",
+      "disciplinasLecionadas_professor": "disciplinas11"
+    },
+    {
+      "id": 12,
+      "ra_professor": "P1212121212",
+      "nome_professor": "Professor12",
+      "email_professor": "email12@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco12",
+      "disciplinasLecionadas_professor": "disciplinas12"
+    },
+    {
+      "id": 13,
+      "ra_professor": "P123123123",
+      "nome_professor": "notRegistredUser123",
+      "email_professor": "notRegistredUser123@email.com",
+      "telefone1_professor": "telefone1",
+      "telefone2_professor": "telefone2",
+      "endereco_professor": "endereco13",
+      "disciplinasLecionadas_professor": "disciplinas13"
+    },
+    {
+      "id": 14,
+      "ra_professor": "P3214",
+      "nome_professor": "Nome",
+      "email_professor": "prof@mail.com",
+      "telefone1_professor": "34616751",
+      "telefone2_professor": "34163751",
+      "endereco_professor": null,
+      "disciplinasLecionadas_professor": null
+    },
+    {
+      "id": 15,
+      "ra_professor": "P32145",
+      "nome_professor": "Prof NOme",
+      "email_professor": "prof@mail.com",
+      "telefone1_professor": "34616751",
+      "telefone2_professor": "3146647",
+      "endereco_professor": null,
+      "disciplinasLecionadas_professor": null
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "ra_aluno": "A22222",
+      "nome_aluno": "Breno Petruquio",
+      "email_aluno": "email2@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco2",
+      "disciplinasCursadas_aluno": "disciplinas2"
+    },
+    {
+      "id": 2,
+      "ra_aluno": "A33333",
+      "nome_aluno": "Elizabeth Pierce",
+      "email_aluno": "email3@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco3",
+      "disciplinasCursadas_aluno": "disciplinas3"
+    },
+    {
+      "id": 3,
+      "ra_aluno": "A44444",
+      "nome_aluno": "Marie Claire",
+      "email_aluno": "email4@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco4",
+      "disciplinasCursadas_aluno": "disciplinas4"
+    },
+    {
+      "id": 4,
+      "ra_aluno": "A55555",
+      "nome_aluno": "Monique Silva",
+      "email_aluno": "email5@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco5",
+      "disciplinasCursadas_aluno": "disciplinas5"
+    },
+    {
+      "id": 5,
+      "ra_aluno": "A66666",
+      "nome_aluno": "Ernest Bob",
+      "email_aluno": "email6@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco6",
+      "disciplinasCursadas_aluno": "disciplinas6"
+    },
+    {
+      "id": 6,
+      "ra_aluno": "A77777",
+      "nome_aluno": "Raquel Reis",
+      "email_aluno": "email7@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco7",
+      "disciplinasCursadas_aluno": "disciplinas7"
+    },
+    {
+      "id": 7,
+      "ra_aluno": "A88888",
+      "nome_aluno": "Michele Lara",
+      "email_aluno": "email8@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco8",
+      "disciplinasCursadas_aluno": "disciplinas8"
+    },
+    {
+      "id": 8,
+      "ra_aluno": "A99999",
+      "nome_aluno": "Miag Toledo",
+      "email_aluno": "email9@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco9",
+      "disciplinasCursadas_aluno": "disciplinas9"
+    },
+    {
+      "id": 9,
+      "ra_aluno": "A1010101010",
+      "nome_aluno": "Miguel Toledo",
+      "email_aluno": "Turno10@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco10",
+      "disciplinasCursadas_aluno": "disciplinas10"
+    },
+    {
+      "id": 10,
+      "ra_aluno": "A1111111111",
+      "nome_aluno": "Daniel Moura",
+      "email_aluno": "email11@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco11",
+      "disciplinasCursadas_aluno": "disciplinas11"
+    },
+    {
+      "id": 11,
+      "ra_aluno": "A1212121212",
+      "nome_aluno": "Ricardo Silva",
+      "email_aluno": "email12@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco12",
+      "disciplinasCursadas_aluno": "disciplinas12"
+    },
+    {
+      "id": 12,
+      "ra_aluno": "A321321321",
+      "nome_aluno": "notRegistredUser321",
+      "email_aluno": "notRegistredUser321@email.com",
+      "telefone1_aluno": "telefones1",
+      "telefone2_aluno": "telefones2",
+      "endereco_aluno": "endereco13",
+      "disciplinasCursadas_aluno": "disciplinas13"
+    },
+    {
+      "id": 13,
+      "ra_aluno": "A98765",
+      "nome_aluno": "Nome Aluno",
+      "email_aluno": "aluno@mail.com",
+      "telefone1_aluno": "34616761",
+      "telefone2_aluno": "34616487",
+      "endereco_aluno": null,
+      "disciplinasCursadas_aluno": null
+    }
+  ],
+  "situacoes": [
+    {
+      "id": 0,
+      "raAluno_situacao": "A11111",
+      "nomeDisciplina_situacao": "Nome_Disciplina1",
+      "nota1_situacao": 11,
+      "nota2_situacao": 11,
+      "nota3_situacao": 11,
+      "faltas_situacao": 1
+    },
+    {
+      "id": 1,
+      "raAluno_situacao": "A22222",
+      "nomeDisciplina_situacao": "Nome_Disciplina2",
+      "nota1_situacao": 22,
+      "nota2_situacao": 22,
+      "nota3_situacao": 22,
+      "faltas_situacao": 2
+    },
+    {
+      "id": 2,
+      "raAluno_situacao": "A33333",
+      "nomeDisciplina_situacao": "Nome_Disciplina3",
+      "nota1_situacao": 33,
+      "nota2_situacao": 33,
+      "nota3_situacao": 33,
+      "faltas_situacao": 3
+    },
+    {
+      "id": 3,
+      "raAluno_situacao": "A44444",
+      "nomeDisciplina_situacao": "Nome_Disciplina4",
+      "nota1_situacao": 44,
+      "nota2_situacao": 44,
+      "nota3_situacao": 44,
+      "faltas_situacao": 4
+    },
+    {
+      "id": 4,
+      "raAluno_situacao": "A55555",
+      "nomeDisciplina_situacao": "Nome_Disciplina5",
+      "nota1_situacao": 55,
+      "nota2_situacao": 55,
+      "nota3_situacao": 55,
+      "faltas_situacao": 5
+    },
+    {
+      "id": 5,
+      "raAluno_situacao": "A66666",
+      "nomeDisciplina_situacao": "Nome_Disciplina6",
+      "nota1_situacao": 66,
+      "nota2_situacao": 66,
+      "nota3_situacao": 66,
+      "faltas_situacao": 6
+    },
+    {
+      "id": 6,
+      "raAluno_situacao": "A77777",
+      "nomeDisciplina_situacao": "Nome_Disciplina7",
+      "nota1_situacao": 77,
+      "nota2_situacao": 77,
+      "nota3_situacao": 77,
+      "faltas_situacao": 7
+    },
+    {
+      "id": 7,
+      "raAluno_situacao": "A88888",
+      "nomeDisciplina_situacao": "Nome_Disciplina8",
+      "nota1_situacao": 88,
+      "nota2_situacao": 88,
+      "nota3_situacao": 88,
+      "faltas_situacao": 8
+    },
+    {
+      "id": 8,
+      "raAluno_situacao": "A99999",
+      "nomeDisciplina_situacao": "Nome_Disciplina9",
+      "nota1_situacao": 99,
+      "nota2_situacao": 99,
+      "nota3_situacao": 99,
+      "faltas_situacao": 9
+    },
+    {
+      "id": 9,
+      "raAluno_situacao": "A1010101010",
+      "nomeDisciplina_situacao": "Nome_Disciplina10",
+      "nota1_situacao": 100,
+      "nota2_situacao": 100,
+      "nota3_situacao": 100,
+      "faltas_situacao": 10
+    },
+    {
+      "id": 10,
+      "raAluno_situacao": "A1111111111",
+      "nomeDisciplina_situacao": "Nome_Disciplina11",
+      "nota1_situacao": 100,
+      "nota2_situacao": 100,
+      "nota3_situacao": 100,
+      "faltas_situacao": 11
+    },
+    {
+      "id": 11,
+      "raAluno_situacao": "A1212121212",
+      "nomeDisciplina_situacao": "Nome_Disciplina12",
+      "nota1_situacao": 100,
+      "nota2_situacao": 100,
+      "nota3_situacao": 100,
+      "faltas_situacao": 12
+    },
+    {
+      "id": 12,
+      "raAluno_situacao": "A321321321",
+      "nomeDisciplina_situacao": "Nome_Disciplina13",
+      "nota1_situacao": 100,
+      "nota2_situacao": 100,
+      "nota3_situacao": 100,
+      "faltas_situacao": 13
+    },
+    {
+      "id": 13,
+      "raAluno_situacao": "A00000",
+      "nomeDisciplina_situacao": "Nome_Disciplina0",
+      "nota1_situacao": 0,
+      "nota2_situacao": 0,
+      "nota3_situacao": 0,
+      "faltas_situacao": 0
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 0,
+      "ra_usuario": "I00000",
+      "nome_usuario": "Instituição",
+      "email_usuario": "email0@email.com",
+      "usuario_usuario": "instituicao",
+      "senha_usuario": "instituicao"
+    },
+    {
+      "id": 1,
+      "ra_usuario": "P11111",
+      "nome_usuario": "Professor1",
+      "email_usuario": "email1@email.com",
+      "usuario_usuario": "professor1",
+      "senha_usuario": "professor1"
+    },
+    {
+      "id": 2,
+      "ra_usuario": "P22222",
+      "nome_usuario": "Professor2",
+      "email_usuario": "email2@email.com",
+      "usuario_usuario": "professor2",
+      "senha_usuario": "professor2"
+    },
+    {
+      "id": 3,
+      "ra_usuario": "P33333",
+      "nome_usuario": "Professor3",
+      "email_usuario": "email3@email.com",
+      "usuario_usuario": "professor3",
+      "senha_usuario": "professor3"
+    },
+    {
+      "id": 4,
+      "ra_usuario": "P44444",
+      "nome_usuario": "Professor4",
+      "email_usuario": "email4@email.com",
+      "usuario_usuario": "professor4",
+      "senha_usuario": "professor4"
+    },
+    {
+      "id": 5,
+      "ra_usuario": "P55555",
+      "nome_usuario": "Professor5",
+      "email_usuario": "email5@email.com",
+      "usuario_usuario": "professor5",
+      "senha_usuario": "professor5"
+    },
+    {
+      "id": 6,
+      "ra_usuario": "P66666",
+      "nome_usuario": "Professor6",
+      "email_usuario": "email6@email.com",
+      "usuario_usuario": "professor6",
+      "senha_usuario": "professor6"
+    },
+    {
+      "id": 7,
+      "ra_usuario": "P77777",
+      "nome_usuario": "Professor7",
+      "email_usuario": "email7@email.com",
+      "usuario_usuario": "professor7",
+      "senha_usuario": "professor7"
+    },
+    {
+      "id": 8,
+      "ra_usuario": "P88888",
+      "nome_usuario": "Professor8",
+      "email_usuario": "email8@email.com",
+      "usuario_usuario": "professor8",
+      "senha_usuario": "professor8"
+    },
+    {
+      "id": 9,
+      "ra_usuario": "P99999",
+      "nome_usuario": "Professor9",
+      "email_usuario": "email9@email.com",
+      "usuario_usuario": "professor9",
+      "senha_usuario": "professor9"
+    },
+    {
+      "id": 10,
+      "ra_usuario": "P1010101010",
+      "nome_usuario": "Professor10",
+      "email_usuario": "email10@email.com",
+      "usuario_usuario": "professor10",
+      "senha_usuario": "professor10"
+    },
+    {
+      "id": 11,
+      "ra_usuario": "P1111111111",
+      "nome_usuario": "Professor11",
+      "email_usuario": "email11@email.com",
+      "usuario_usuario": "professor11",
+      "senha_usuario": "professor11"
+    },
+    {
+      "id": 12,
+      "ra_usuario": "P1212121212",
+      "nome_usuario": "Professor12",
+      "email_usuario": "email12@email.com",
+      "usuario_usuario": "professor12",
+      "senha_usuario": "professor12"
+    },
+    {
+      "id": 13,
+      "ra_usuario": "A11111",
+      "nome_usuario": "Alexander Pierce",
+      "email_usuario": "email1@email.com",
+      "usuario_usuario": "aluno1",
+      "senha_usuario": "aluno1"
+    },
+    {
+      "id": 14,
+      "ra_usuario": "A22222",
+      "nome_usuario": "Breno Petruquio",
+      "email_usuario": "email2@email.com",
+      "usuario_usuario": "aluno2",
+      "senha_usuario": "aluno2"
+    },
+    {
+      "id": 15,
+      "ra_usuario": "A33333",
+      "nome_usuario": "Elizabeth Pierce",
+      "email_usuario": "email2@email.com",
+      "usuario_usuario": "aluno3",
+      "senha_usuario": "aluno3"
+    },
+    {
+      "id": 16,
+      "ra_usuario": "A44444",
+      "nome_usuario": "Marie Claire",
+      "email_usuario": "email4@email.com",
+      "usuario_usuario": "aluno4",
+      "senha_usuario": "aluno4"
+    },
+    {
+      "id": 17,
+      "ra_usuario": "A55555",
+      "nome_usuario": "Monique Silva",
+      "email_usuario": "email5@email.com",
+      "usuario_usuario": "aluno5",
+      "senha_usuario": "aluno5"
+    },
+    {
+      "id": 18,
+      "ra_usuario": "A66666",
+      "nome_usuario": "Ernest Bob",
+      "email_usuario": "email6@email.com",
+      "usuario_usuario": "aluno6",
+      "senha_usuario": "aluno6"
+    },
+    {
+      "id": 19,
+      "ra_usuario": "A77777",
+      "nome_usuario": "Raquel Reis",
+      "email_usuario": "email7@email.com",
+      "usuario_usuario": "aluno7",
+      "senha_usuario": "aluno7"
+    },
+    {
+      "id": 20,
+      "ra_usuario": "A88888",
+      "nome_usuario": "Michele Lara",
+      "email_usuario": "email8@email.com",
+      "usuario_usuario": "aluno8",
+      "senha_usuario": "aluno8"
+    },
+    {
+      "id": 21,
+      "ra_usuario": "A99999",
+      "nome_usuario": "Miag Toledo",
+      "email_usuario": "email9",
+      "usuario_usuario": "aluno9",
+      "senha_usuario": "aluno9"
+    },
+    {
+      "id": 22,
+      "ra_usuario": "A1010101010",
+      "nome_usuario": "Miguel Toledo",
+      "email_usuario": "email10@email.com",
+      "usuario_usuario": "aluno10",
+      "senha_usuario": "aluno10"
+    },
+    {
+      "id": 23,
+      "ra_usuario": "A1111111111",
+      "nome_usuario": "Daniel Moura",
+      "email_usuario": "email11@email.com",
+      "usuario_usuario": "aluno11",
+      "senha_usuario": "aluno11"
+    },
+    {
+      "id": 24,
+      "ra_usuario": "A1212121212",
+      "nome_usuario": "Ricardo Silva",
+      "email_usuario": "email12@email.com",
+      "usuario_usuario": "aluno12",
+      "senha_usuario": "aluno12"
+    },
+    {
+      "id": 25,
+      "ra_usuario": "A98765",
+      "nome_usuario": "Nome Aluno",
+      "email_usuario": "aluno@mail.com",
+      "usuario_usuario": "teste1",
+      "senha_usuario": "123456789"
+    },
+    {
+      "id": 26,
+      "ra_usuario": "P123123123",
+      "nome_usuario": "notRegistredUser123",
+      "email_usuario": "notRegistredUser123@email.com",
+      "usuario_usuario": "Usuario",
+      "senha_usuario": "sENHA123"
+    }
+  ]
+}

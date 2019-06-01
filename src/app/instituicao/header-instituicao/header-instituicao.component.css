@@ -1,0 +1,39 @@
+.main-header .logo .logo-lg {
+    font-size: 100% !important;
+}
+
+.main-header .logo .logo-mini {
+    font-size: 75% !important;
+}
+
+.user-header {
+    height: 100% !important;
+}
+
+/* -- Modal -- */
+.modal-footer {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+}
+
+.modal-footer button {
+    flex: 1 !important;
+}
+
+.vertical-alignment-helper {
+    display: table !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+.vertical-align-center {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+.modal-content {
+    width:inherit !important;
+    height:inherit !important;
+    margin: 0 auto !important;
+}
+/* --------- */

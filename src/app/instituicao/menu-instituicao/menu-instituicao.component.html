@@ -1,0 +1,70 @@
+<aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="sidebar-menu" data-widget="tree">
+      <li class="header">CADASTRO ACADÊMICO</li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/cadastrar-disciplina']">
+          <i class="fa fa-calendar-plus-o"></i>
+          <span>Cadastrar Disciplina</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/cadastrar-professor']">
+          <i class="fa fa-child"></i>
+          <span>Cadastrar Professor</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/cadastrar-aluno']">
+          <i class="fa fa-user-plus"></i>
+          <span>Cadastrar Aluno</span>
+        </a>
+      </li>
+
+      <!--
+      <li class="header">ALTERAÇÕES ACADÊMICAS</li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/alterar-disciplina']">
+          <i class="fa fa-calendar-check-o"></i>
+          <span>Alterar Disciplina</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/alterar-professor']">
+          <i class="fa fa-male"></i>
+          <span>Alterar Professor</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/alterar-aluno']">
+          <i class="fa fa-user"></i>
+          <span>Alterar Aluno</span>
+        </a>
+      </li>
+      -->
+
+      <li class="header">GERENCIAMENTO ACADÊMICO</li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/visualizar-disciplinas']">
+          <i class="fa fa-calendar"></i>
+          <span>Visualizar Disciplinas</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/visualizar-professores']">
+          <i class="fa fa-street-view"></i>
+          <span>Visualizar Professores</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/instituicao/visualizar-alunos']">
+          <i class="fa fa-users"></i>
+          <span>Visualizar Alunos</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>

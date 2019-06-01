@@ -1,0 +1,60 @@
+<aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="sidebar-menu" data-widget="tree">
+      <li class="header">GERENCIAMENTO ACADÊMICO</li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/professor/quadro-avisos']">
+          <i class="fa fa-edit"></i>
+          <span>Quadro de Avisos</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/professor/gerenciamento-faltas']">
+          <i class="glyphicon glyphicon-check"></i>
+          <span>Gerenciamento de Faltas</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/professor/gerenciamento-notas']">
+          <i class="glyphicon glyphicon-edit"></i>
+          <span>Gerenciamento de Notas</span>
+        </a>
+      </li>
+      <li routerLinkActive="active">
+        <a role="button" [routerLink]="['/professor/cronograma-academico']">
+          <i class="fa fa-calendar"></i>
+          <span>Cronograma Acadêmico</span>
+        </a>
+      </li>
+
+      <li class="header">DOCUMENTAÇÃO DO PROFESSOR</li>
+      <li>
+        <a role="button">
+          <i class="fa fa-circle-o text-blue"></i>
+          <span>Currículo Profissional</span>
+        </a>
+      </li>
+      <li>
+        <a role="button">
+          <i class="fa fa-circle-o text-blue"></i>
+          <span>Currículo Acadêmico</span>
+        </a>
+      </li>
+      <li>
+        <a role="button">
+          <i class="fa fa-circle-o text-blue"></i>
+          <span>Contrato Disciplinar</span>
+        </a>
+      </li>
+      <li>
+        <a role="button">
+          <i class="fa fa-circle-o text-blue"></i>
+          <span>Relatório Educacional</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>

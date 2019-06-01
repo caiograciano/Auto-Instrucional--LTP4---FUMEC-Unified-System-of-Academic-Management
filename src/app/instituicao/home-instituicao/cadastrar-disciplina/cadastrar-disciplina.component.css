@@ -1,0 +1,26 @@
+div {
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+.warning {
+  color: red;
+  font-size: 0.8em;
+}
+
+.badge{
+  padding: 1%;    
+  margin: 1%;
+  font-size: 100%;
+}
+
+.badge-success{
+  color: #fff;
+  background-color: #28a745;
+}
+
+.badge-info{
+  color: #fff;
+  background-color: #5abcf5;
+}

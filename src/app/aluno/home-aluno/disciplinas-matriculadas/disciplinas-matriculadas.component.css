@@ -1,0 +1,14 @@
+div {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+}
+
+td, th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+td button {
+    width: 50%;
+}

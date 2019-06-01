@@ -1,5 +1,4 @@
-# Unified-System-of-Academic-Management
-Trabalho Autoinstrucional para a Displicana de Desenvolvimento Web Front-end do Curso de Ciência da Computação da Universidade FUMEC
+# UnifiedSystemOfAcademicManagement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 

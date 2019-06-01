@@ -1,0 +1,53 @@
+<div class="login-box">
+  <div class="login-logo">
+    <a role="button">
+      <b>Unified System of Academic Management</b>
+    </a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+    <p class="login-box-msg">Faça o login para iniciar sua sessão</p>
+
+    <form [formGroup]="formGroupLogin" (ngSubmit)="onSubmit()">
+      <div class="form-group has-feedback">
+        <input formControlName="usuario" autofocus type="text" id="txt-usuario" class="form-control" placeholder="Usuário">
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input formControlName="senha" type="password" id="txt-senha" class="form-control" placeholder="Senha">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label>
+              <!-- Lembrar usuário -->
+            </label>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-4">
+          <button (click)="logar()" type="button" id="btn-logar" class="btn btn-primary btn-block btn-flat">Entrar</button>
+        </div>
+        <!-- /.col -->
+      </div>
+    </form>
+
+    <div *ngIf="loginErro; then thenBlock"></div>
+    <ng-template #thenBlock>
+      <!-- Modal de Erro -->
+      <div class="form-group has-error">
+        <label class="control-label" for="inputError">
+          <i class="fa fa-times-circle-o"></i> Usuário ou senha inválidos.
+        </label>
+      </div>
+    </ng-template>
+
+    <a role="button">Esqueceu a senha?</a>
+    <br>
+    <a [routerLink]="['/register']" class="text-center">Primeiro acesso?</a>
+
+  </div>
+  <!-- /.login-box-body -->
+</div>
+<!-- /.login-box -->

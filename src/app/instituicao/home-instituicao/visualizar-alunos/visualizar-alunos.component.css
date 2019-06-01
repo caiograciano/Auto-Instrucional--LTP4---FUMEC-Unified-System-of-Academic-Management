@@ -1,0 +1,54 @@
+div {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+}
+
+td, th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+td button {
+    width: 50%;
+}
+
+.th-table-opcoes {
+    width: 25% !important;
+}
+
+td .btn-info {
+    margin-right: 2px !important; 
+}
+
+td .btn-danger {
+    margin-left: 2px !important; 
+}
+
+/* -- Modal -- */
+.modal-footer {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+}
+
+.modal-footer button {
+    flex: 1 !important;
+}
+
+.vertical-alignment-helper {
+    display: table !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+.vertical-align-center {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+.modal-content {
+    width:inherit !important;
+    height:inherit !important;
+    margin: 0 auto !important;
+}
+/* --------- */

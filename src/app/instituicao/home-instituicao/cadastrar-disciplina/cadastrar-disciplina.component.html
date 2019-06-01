@@ -1,0 +1,38 @@
+<div class="box box-success">
+  <div class="box-header with-border">
+    <h3 class="box-title">Cadastro Disicplina</h3>
+  </div>
+  <!-- /.box-header -->
+  <!-- form start -->
+  <form role="form formCadastro" [formGroup]="CadastroDisiciplinaForm" (ngSubmit)="salvarDisciplina()">
+    <div class="box-body">
+      <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">Nome Disciplina</label>
+        <input type="text" class="form-control" formControlName="nome_disciplina" id="nome_disciplina" placeholder="" name="nome_disciplina">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">Cursos</label>
+        <input type="text" class="form-control" formControlName="curso_disciplina" id="curso_disciplina" placeholder="" name="curso_disciplina">
+      </div>
+      <div class=" form-group col-md-6">
+        <label class="col-md-12 " for="radios">Turno</label>
+        <label class="badge-success badge col-md-2">
+          <input type="radio" formControlName="turno_disciplina" id="turno_disciplina" name="turno_disciplina" value="Manhã"> Manhã
+        </label>
+        <label class=" badge-info badge col-md-2">
+          <input type="radio" formControlName="turno_disciplina" id="turno_disciplina" name="turno_disciplina" value="Noite"> Noite
+        </label>
+      </div>
+    </div>
+    <!-- /.box-body -->
+
+    <div class="box-footer">
+      <button type="submit" class="btn btn-success pull-right" [disabled]="CadastroDisiciplinaForm.invalid"><i class="fa fa-save"></i> Cadastrar</button>
+    </div>
+  </form>
+</div>
+
+<div class="alert alert-success alert-dismissible" *ngIf="mostrarMensagem">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+  <h4><i class="icon fa fa-check"></i> Disciplina Cadastrada Com Sucesso </h4>
+</div>

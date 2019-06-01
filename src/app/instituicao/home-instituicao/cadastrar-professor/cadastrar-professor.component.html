@@ -1,0 +1,40 @@
+<div class="box box-success">
+  <div class="box-header with-border">
+    <h3 class="box-title">Cadastro Professor</h3>  
+  </div>
+  <!-- /.box-header -->
+  <!-- form start -->
+  <form role="form formCadastro" [formGroup]="cadastroProfessorForm" (ngSubmit)="salvarProfessor()">
+    <div class="box-body">
+      <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">Registro Acadêmico (RA)</label>
+        <input type="text" class="form-control" formControlName="ra_professor"  id="ra_professor" name="ra_professor" >
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputPassword1">Nome Professor</label>
+        <input type="text" class="form-control" formControlName="nome_professor" id="nome_professor" placeholder="" name="nome_professor">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">E-mail</label>
+        <input type="text" class="form-control" formControlName="email_professor" id="email_professor" placeholder="" name="email_professor">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="exampleInputPassword1">Telefone 1</label>
+        <input type="text" class="form-control" formControlName="telefonel_professor" id="telefonel_professor" placeholder="" name="telefonel_professor">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="exampleInputPassword1">Telefone 2</label>
+        <input type="text" class="form-control" formControlName="telefone2_professor" id="telefone2_professor" placeholder="" name="telefone2_professor">
+      </div>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+      <button type="submit" class="btn btn-success pull-right" [disabled]="cadastroProfessorForm.invalid"><i class="fa fa-save"></i> Cadastrar</button>
+    </div>
+  </form>
+</div>
+
+<div class="alert alert-success alert-dismissible" *ngIf="mostrarMensagem">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+  <h4><i class="icon fa fa-check"></i> Professor Cadastrado(a) Com Sucesso </h4>
+</div>

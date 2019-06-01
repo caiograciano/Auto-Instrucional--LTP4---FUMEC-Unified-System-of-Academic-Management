@@ -1,0 +1,105 @@
+<!-- Default box 1 -->
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Disciplinas Matrículadas</h3>
+
+    <div class="box-tools pull-right">
+      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+        <i class="fa fa-minus"></i>
+      </button>
+    </div>
+  </div>
+  <div class="box-body">
+    <div class="dataTables_wrapper form-inline dt-bootstrap">
+      <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table table-bordered table-hover dataTable" role="grid">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Nome</th>
+                <th rowspan="1" colspan="1">Turnos</th>
+                <th rowspan="1" colspan="1">Cursos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr role="row" class="odd" *ngFor="let disciplina of listDisciplinas">
+                <td>{{disciplina?.nome_disciplina}}</td>
+                <td>{{disciplina?.turno_disciplina}}</td>
+                <td>{{disciplina?.cursos_disciplina}}</td>
+              </tr>
+            <tfoot>
+              <tr>
+                <th rowspan="1" colspan="1">Nome</th>
+                <th rowspan="1" colspan="1">Turnos</th>
+                <th rowspan="1" colspan="1">Cursos</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.box-body -->
+</div>
+
+<!-- Default box 2 -->
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Situação Acadêmica</h3>
+
+    <div class="box-tools pull-right">
+      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+        <i class="fa fa-minus"></i>
+      </button>
+    </div>
+  </div>
+  <div class="box-body">
+    <div class="dataTables_wrapper form-inline dt-bootstrap">
+      <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table table-bordered table-hover dataTable" role="grid">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">RA do Aluno</th>
+                <th rowspan="1" colspan="1">Nome da Disciplina</th>
+                <th rowspan="1" colspan="1">Nota 1</th>
+                <th rowspan="1" colspan="1">Nota 2</th>
+                <th rowspan="1" colspan="1">Nota 3</th>
+                <th rowspan="1" colspan="1">Faltas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr role="row" class="odd">
+                <td>{{situacao?.raAluno_situacao}}</td>
+                <td>{{situacao?.nomeDisciplina_situacao}}</td>
+                <td>{{situacao?.nota1_situacao}}</td>
+                <td>{{situacao?.nota2_situacao}}</td>
+                <td>{{situacao?.nota3_situacao}}</td>
+                <td>{{situacao?.faltas_situacao}}</td>
+              </tr>
+            <tfoot>
+              <tr>
+                <th rowspan="1" colspan="1">RA do Aluno</th>
+                <th rowspan="1" colspan="1">Nome da Disciplina</th>
+                <th rowspan="1" colspan="1">Nota 1</th>
+                <th rowspan="1" colspan="1">Nota 2</th>
+                <th rowspan="1" colspan="1">Nota 3</th>
+                <th rowspan="1" colspan="1">Faltas</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.box-body -->
+</div>
+<!-- /.box -->

@@ -1,0 +1,40 @@
+<div class="box box-success">
+  <div class="box-header with-border">
+    <h3 class="box-title">Cadastro Aluno</h3>  
+  </div>
+  <!-- /.box-header -->
+  <!-- form start -->
+  <form role="form formCadastro" [formGroup]="cadastroAlunoForm" (ngSubmit)="salvarAluno()">
+    <div class="box-body">
+      <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">Registro Acadêmico (RA)</label>
+        <input type="text" class="form-control" formControlName="ra_aluno" id="ra_aluno" placeholder="" name="ra_aluno">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputPassword1">Nome Aluno</label>
+        <input type="text" class="form-control" formControlName="nome_aluno" id="nome_aluno" placeholder="" name="nome_aluno">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">E-mail</label>
+        <input type="text" class="form-control" formControlName="email_aluno" id="email_aluno" placeholder="" name="email_aluno">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="exampleInputPassword1">Telefone 1</label>
+        <input type="text" class="form-control" formControlName="telefonel_aluno" id="telefonel_aluno" placeholder="" name="telefonel_aluno">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="exampleInputPassword1">Telefone 2</label>
+        <input type="text" class="form-control" formControlName="telefone2_aluno" id="telefone2_aluno" placeholder="" name="telefone2_aluno">
+      </div>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+      <button type="submit" class="btn btn-success pull-right" [disabled]="cadastroAlunoForm.invalid"><i class="fa fa-save"></i> Cadastrar</button>
+    </div>
+  </form>
+</div>
+
+<div class="alert alert-success alert-dismissible" *ngIf="mostrarMensagem">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+  <h4><i class="icon fa fa-check"></i> Aluno Cadastrado(a) Com Sucesso </h4>
+</div>

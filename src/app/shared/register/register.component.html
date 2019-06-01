@@ -1,0 +1,89 @@
+<div class="register-box">
+  <div class="register-logo">
+    <a role="button">
+      <b>Unified System of Academic Management</b>
+    </a>
+  </div>
+  <!-- /.register-logo -->
+  <div class="register-box-body">
+    <p class="login-box-msg">Primeiro acesso no sistema</p>
+
+    <form [formGroup]="formGroupRegister" (ngSubmit)="submit()">
+      <div class="form-group has-feedback">
+        <input (keyup)="searchUserByRa()" formControlName="registroAcademico" autofocus type="text" id="txt-registro-academico"
+          class="form-control" placeholder="Registro Acadêmico" title="Campo de registro acadêmico obrigatório">
+        <span class="glyphicon glyphicon-book form-control-feedback"></span>
+        <div class="warning" *ngIf="formGroupRegister.controls.registroAcademico.invalid && formGroupRegister.controls.registroAcademico.dirty && formGroupRegister.controls.registroAcademico.touched || raRegistred">
+          Registro acadêmico inválido ou já registrado
+        </div>
+      </div>
+      <div class="form-group has-feedback">
+        <input formControlName="nome" [readonly]="true" type="text" id="txt-nome" class="form-control" placeholder="Nome"
+          title="Nome cadastrado no sistema">
+        <span class="glyphicon glyphicon-pencil form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input formControlName="email" [readonly]="true" type="email" id="txt-email" class="form-control" placeholder="E-mail"
+          title="E-mail cadastrado no sistema">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input formControlName="usuario" [readonly]="formGroupRegisterReadOnly" type="text" id="txt-usuario" class="form-control"
+          placeholder="Usuário" title="Campo de usuário obrigatório. 6 a 12 caracteres.">
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+        <div class="warning" *ngIf="formGroupRegister.controls.usuario.invalid && formGroupRegister.controls.usuario.dirty && formGroupRegister.controls.usuario.touched && !formGroupRegisterReadOnly">
+          Usuário inválido
+        </div>
+      </div>
+      <div class="form-group has-feedback">
+        <input formControlName="senha" [readonly]="formGroupRegisterReadOnly" type="password" id="txt-senha" class="form-control"
+          placeholder="Senha" title="Campo de senha obrigatório. 7 a 21 caracteres.">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        <div class="warning" *ngIf="formGroupRegister.controls.senha.invalid && formGroupRegister.controls.senha.dirty && formGroupRegister.controls.senha.touched && !formGroupRegisterReadOnly">
+          Senha inválida
+        </div>
+      </div>
+      <div class="form-group has-feedback">
+        <input formControlName="confirmarSenha" [readonly]="formGroupRegisterReadOnly" type="password" id="txt-confirmar-senha"
+          class="form-control" placeholder="Confirmar senha" title="Campo de confirmar senha obrigatório. 7 a 21 caracteres.">
+        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+        <div class="warning" *ngIf="formGroupRegister.controls.confirmarSenha.invalid && formGroupRegister.controls.confirmarSenha.dirty && formGroupRegister.controls.confirmarSenha.touched && !formGroupRegisterReadOnly">
+          Confirmar senha inválida
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label>
+              <!-- Termos de uso -->
+            </label>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-4">
+          <button type="submit" id="btn-cadastrar" class="btn btn-primary btn-block btn-flat" data-toggle="modal" data-target="#myModal" [disabled]="formGroupRegister.invalid">Cadastrar</button>
+        </div>
+        <!-- /.col -->
+      </div>
+    </form>
+
+    <a [routerLink]="['/login']" class="text-center">Já sou cadastrado no sistema</a>
+  </div>
+  <!-- /.form-box -->
+</div>
+<!-- /.register-box -->
+
+<div id="myModal" class="modal fade" data-backdrop="false" role="dialog">
+  <div class="vertical-alignment-helper">
+    <div class="modal-dialog modal-sm text-center vertical-align-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Usuário Registrado no Sistema</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal" (click)="sucessRegistration()">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
